@@ -8,6 +8,7 @@ class RecipeDetail extends StatefulWidget {
 
   @override
   _RecipeDetailState createState() {
+    // ignore: no_logic_in_create_state
     return _RecipeDetailState(recipe);
   }
 }
